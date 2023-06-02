@@ -80,3 +80,6 @@ a {
   text-decoration: none;
   color: #616161;
 }
+
+@media (max-widht:586px){
+  .img-1, .img-2, .img-3}{background-attachment:scroll;}
