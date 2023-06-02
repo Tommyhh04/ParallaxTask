@@ -1,0 +1,82 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  font-size: 16;
+  font-weight: 400;
+  color: #616161;
+  line-height: 1.8em;
+}
+/*Style for images*/
+/*Parralax scrolling*/
+.img-1,
+.img-2,
+.img-3,
+#bottom-img {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*Hero image*/
+.img-1 {
+  background-image: url(./Images/MalaysiaCity.jpg);
+  min-height: 100%;
+}
+/*Batu Caves*/
+.img-2 {
+  background-image: url(./Images/BatuCaves.jpg);
+  height: 400px;
+}
+/*Bukit Nanas*/
+.img-3 {
+  background-image: url(./Images/bukitnanas.jpg);
+  height: 400px;
+}
+
+#bottom-img {
+  background-image: url(./Images/KLTower.jpg);
+  min-height: 100%;
+}
+
+/*Text Styling*/
+/*Inside text for the text inside the images*/
+.inside-Text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.background {
+  background-color: rgba(0, 0, 0, 0.456);
+  padding: 10px;
+}
+
+.paragraph-el {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+/*Learn more Button style*/
+.learnMore {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.learnMore:active {
+  background-color: #eeeeee;
+}
+.learnMore:hover {
+  background-color: #eeeeee;
+}
+/*Link styling*/
+
+a {
+  text-decoration: none;
+  color: #616161;
+}
